@@ -76,23 +76,9 @@ export default function Footer() {
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/">🤝CrowdShield</NextLink>
           </Box>
         </Heading>
-        <Stack direction={"row"} spacing={6}>
-          <NextLink href="/">Home</NextLink>
-          <Link
-            href={
-              "https://github.com/harsh242/betterfund-crowdfunding-in-blockchain"
-            }
-            isExternal
-          >
-            Github
-          </Link>
-          <Link href={"mailto:harshbadhai242@gmail.com"} isExternal>
-            Contact
-          </Link>
-        </Stack>
       </Container>
 
       <Box
@@ -100,38 +86,6 @@ export default function Footer() {
         borderStyle={"solid"}
         borderColor={useColorModeValue("gray.200", "gray.700")}
       >
-        <Container
-          as={Stack}
-          maxW={"6xl"}
-          py={4}
-          direction={{ base: "column", md: "row" }}
-          spacing={4}
-          justify={{ base: "center", md: "space-between" }}
-          align={{ base: "center", md: "center" }}
-        >
-          <Text>🌐 Made while 💩 by Harsh, Hritvik , Nischal & Aaditya</Text>
-          <Stack direction={"row"} spacing={6}>
-            <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
-              {" "}
-              <FaGlobe />
-            </SocialButton>
-            <SocialButton
-              label={"Twitter"}
-              href={"https://twitter.com/harshbadhai28"}
-            >
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label={"Github"} href={"https://github.com/harsh242"}>
-              <FaGithub />
-            </SocialButton>
-            <SocialButton
-              label={"Instagram"}
-              href={"https://www.instagram.com/frames_by._harsh/"}
-            >
-              <FaInstagram />
-            </SocialButton>
-          </Stack>
-        </Container>
       </Box>
     </Box>
   );
