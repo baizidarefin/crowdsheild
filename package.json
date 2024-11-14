@@ -1,10 +1,10 @@
 {
-  "name": "betterfund",
+  "name": "crowdsheild",
   "version": "0.1.0",
   "private": true,
   "scripts": {
 "scripts": {
-    "deploy": "node deploy.js"
+    "deploy": "node deploy.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
